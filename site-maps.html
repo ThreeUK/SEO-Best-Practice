@@ -18,12 +18,12 @@
     <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
   </ul>
 
-  <section class="top-bar-section">
+ <section class="top-bar-section">
     <!-- Left Nav Section -->
     <ul class="left">
       <li class="has-dropdown">
-      	<a href="html-and-architecture.html">HTML Architecture</a>
-			<ul class="dropdown">
+        <a href="html-and-architecture.html">HTML & Architecture</a>
+      <ul class="dropdown">
           <li><a href="url-structure.html">URL Structure</a></li>
           <li><a href="site-speed.html">Site Speed</a></li>
           <li><a href="site-maps.html">Site Maps</a></li>
@@ -33,7 +33,7 @@
           <li><a href="page-header.html">Page Header</a></li>
           <li><a href="meta-keywords.html">Meta Keywords</a></li>
         </ul>
-      	</li>
+        </li>
       <li class="has-dropdown">
         <a href="crawling-and-indexation.html">Crawling and Indexation</a>
         <ul class="dropdown">
@@ -102,17 +102,36 @@
 </div>
 
 		<div class="row">		
-			<div class="large-12 columns" role="content">			
-					<h2>Summary</h2>
-							<p>This document details best practice recommendations about all technical aspects of SEO that need to be taken into consideration when building pages. It is important that the following guidelines are followed accurately by site builders within their projects.</p>
-							<p>With this pattern library we aim to provide a resource for your site builders about how to improve your website and how to make sure your website is SEO optimised at all times.</p>
-							<p>Once a website reaches a certain size and complexity (especially if a number of sub-sites are involved) the argument for a pattern library are overwhelming.</p>
-							<p>These benefits are three fold:</p>
-							<ol>
-								<li>Consistency in user experience - Big sites are developed by different people over a prolonged period of time, and revised regularly. This almost always leads to a fragmented user experience unless there is something in place to ensure consistency.</li>
-								<li>Reusability - Large organisations often have multiple web teams working across the company reporting into different departments. Often these teams work largely in isolation and so end up reinventing the wheel at considerable cost. Having a central pattern library developed in collaboration between all of these web professionals means that functionality and design elements can be reused, so keeping costs down.</li>
-								<li>Maintainability - Having a consistent pattern library that everybody works from makes maintenance easier too. When elements are always coded in the same way, it is much easier for a developer to work on somebody else’s code. Also when a new developer comes in they can get up to speed much quicker by looking at the pattern library.</li>
-							</ol>
+			<div class="large-12 columns" role="content">
+		
+			
+        <h1>Site Maps</h1>
+					<h2>What is it?</h2>
+							<p>A sitemap is a file where you can list the web pages of your site to tell search engines about the organization of your site content.</p>
+
+<h2>What is it used for?</h2>
+<ul>
+  <li>Allows webmasters to submit a master list of all of their sites pages to search engines for indexing.</li>
+  <li>Provide valuable metadata associated with the pages you list within it (metadata is information about a webpage, such as when the page was last updated, how often the page is changed, and the importance of the page relative to other URLs in the site).</li>
+  <li>To help the search engines to index all of the content present on the site and crawl your site more intelligently by, for example, notifying them when pages are added or removed.</li>
+</ul>
+
+<h3>A good sitemap should accomplish the following:</h3>
+<ul>
+  <li>Your XML Sitemap should include the following tags:
+    <ol>
+      <li><code>&lt;lastmod&gt;</code> - notifies them of when a page last changed.</li>
+      <li><code>&lt;changefreq&gt;</code> - indicates how often the page is likely to change.</li>
+      <li><code>&lt;priority&gt;</code> - set a crawl priority to site pages based on their importance, relative to the rest of the site.</li>
+    </ol>
+  </li>
+  <li>To have the most recent version of your URL’s at all times.</li>
+  <li>Each Sitemap must have no more than 50,000 URLs and must be no larger 10MB (after un-gzipping). There are options to compress Sitemap files using ‘gzip’ to reduce the amount of bandwidth required.</li>
+  <li>Specify all URLs using the same syntax.</li>
+</ul>
+
+
+		
 				
 			</div>
 </div>

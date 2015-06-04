@@ -22,8 +22,8 @@
     <!-- Left Nav Section -->
     <ul class="left">
       <li class="has-dropdown">
-      	<a href="html-and-architecture.html">HTML Architecture</a>
-			<ul class="dropdown">
+        <a href="html-and-architecture.html">HTML & Architecture</a>
+      <ul class="dropdown">
           <li><a href="url-structure.html">URL Structure</a></li>
           <li><a href="site-speed.html">Site Speed</a></li>
           <li><a href="site-maps.html">Site Maps</a></li>
@@ -33,7 +33,7 @@
           <li><a href="page-header.html">Page Header</a></li>
           <li><a href="meta-keywords.html">Meta Keywords</a></li>
         </ul>
-      	</li>
+        </li>
       <li class="has-dropdown">
         <a href="crawling-and-indexation.html">Crawling and Indexation</a>
         <ul class="dropdown">
@@ -102,17 +102,43 @@
 </div>
 
 		<div class="row">		
-			<div class="large-12 columns" role="content">			
-					<h2>Summary</h2>
-							<p>This document details best practice recommendations about all technical aspects of SEO that need to be taken into consideration when building pages. It is important that the following guidelines are followed accurately by site builders within their projects.</p>
-							<p>With this pattern library we aim to provide a resource for your site builders about how to improve your website and how to make sure your website is SEO optimised at all times.</p>
-							<p>Once a website reaches a certain size and complexity (especially if a number of sub-sites are involved) the argument for a pattern library are overwhelming.</p>
-							<p>These benefits are three fold:</p>
+			<div class="large-12 columns" role="content">
+				
+        <h1>URL Structure</h1>
+							<p>URL Structure is one of the most important parts of a website, as it is influential in getting pages indexed in search engines, as well being sharable by users.</p>
+
+<p>The best way to make sure a URL is accessible is to create static URLs. This URL structure does not change dependent on the content being served, and the SEO benefit is that static URLs can be read by Google’s crawlers and indexed for inclusion in the search results.</p>
+
+<h3>Best practices:</h3>
+              <ul>
+                <li>Always use semantic URLs over non-semantic</li>
+                <li>Optimize the query string for the page’s target keyword</li>
+                <li>Ideally, this should also replicate the naming convention for the page that’s used in internal linking, to help users identify where they are on-site</li>
+                <li>Use ‘-‘ to separate keywords and avoid underscores.</li>
+                <li>Avoid uppercase: Different servers treat uppercase characters in different ways. In some cases, duplicate content issues can be caused. Although not a hugely important factor, it is good practice to keep all URLs lowercase as they are more user-friendly.</li>
+                <li>URLs should be keyword rich</li>
+                <li>Generally shorter URLs perform better (maximum of 5 relevant words).</li>
+                <li>Describe subfolders and any pages they contain</li>
+              </ul>
+              <p>Example: http://www.threemediacentre.co.uk/Press-Releases/Three-reports-continued-growth-in-profit-and-innovation-370.aspx (Good static structure but too long, with 9 words separated by ‘-‘.</p>
+
+<h3>Meta Description</h3>
+<p>Meta descriptions sit in the <code>&lt;head&gt;</code> of a page’s HTML and are the 928 pixel width visible piece of text below the page titles in search results.</p>
+
+							<p>Different to page titles, they are no longer used as a ranking signal. Copy in the meta descriptions should be used to boost click through rate, but remain accurate as to reflect the content on the page, otherwise search engines may deem it too irrelevant and display text generated from the webpage instead.</p>
+							
 							<ol>
-								<li>Consistency in user experience - Big sites are developed by different people over a prolonged period of time, and revised regularly. This almost always leads to a fragmented user experience unless there is something in place to ensure consistency.</li>
-								<li>Reusability - Large organisations often have multiple web teams working across the company reporting into different departments. Often these teams work largely in isolation and so end up reinventing the wheel at considerable cost. Having a central pattern library developed in collaboration between all of these web professionals means that functionality and design elements can be reused, so keeping costs down.</li>
-								<li>Maintainability - Having a consistent pattern library that everybody works from makes maintenance easier too. When elements are always coded in the same way, it is much easier for a developer to work on somebody else’s code. Also when a new developer comes in they can get up to speed much quicker by looking at the pattern library.</li>
+								<li>Ensure that each page has a unique description</li>
+								<li>Descriptions don’t count towards Google’s ranking algorithm, but do directly impact on the likelihood of users clicking through to the page from search results</li>
+								<li>Google bolds search queries, synonyms and co-occurring keywords when they appear in descriptions, making it prudent to optimize them</li>
+                <li>The maximum description width is approximately 920 pixels (for desktop), beyond which it will be truncated or rewritten</li>
+                <li>This equates to around 120-145 keywords, depending on which letters are used</li>
+                <li>An example optimized description is: Looking for a dongle, tablet or mobile Wi-Fi connection? Join the UK's fastest growing network and get online wherever you are.</li>
 							</ol>
+		<h3>Parameters</h3>
+    <p>There are occasions when content will need to be served dynamically with the use of parameters. A parameter is identified by the ‘?’ seen in the URL. This is a great way of delivering dynamic content and can work for SEO if handled correctly.</p>
+    <p>The suggested way to handle parameters is through Webmaster tools services for search engines. These can be used to tell search engines which parameters you have on site, which will then allow them to create and store a snapshot of the dynamic page, which can then be crawled, indexed and potentially rank in search results.</p>
+
 				
 			</div>
 </div>

@@ -18,12 +18,12 @@
     <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
   </ul>
 
-  <section class="top-bar-section">
+<section class="top-bar-section">
     <!-- Left Nav Section -->
     <ul class="left">
       <li class="has-dropdown">
-      	<a href="html-and-architecture.html">HTML Architecture</a>
-			<ul class="dropdown">
+        <a href="html-and-architecture.html">HTML & Architecture</a>
+      <ul class="dropdown">
           <li><a href="url-structure.html">URL Structure</a></li>
           <li><a href="site-speed.html">Site Speed</a></li>
           <li><a href="site-maps.html">Site Maps</a></li>
@@ -33,7 +33,7 @@
           <li><a href="page-header.html">Page Header</a></li>
           <li><a href="meta-keywords.html">Meta Keywords</a></li>
         </ul>
-      	</li>
+        </li>
       <li class="has-dropdown">
         <a href="crawling-and-indexation.html">Crawling and Indexation</a>
         <ul class="dropdown">
@@ -102,17 +102,21 @@
 </div>
 
 		<div class="row">		
-			<div class="large-12 columns" role="content">			
-					<h2>Summary</h2>
-							<p>This document details best practice recommendations about all technical aspects of SEO that need to be taken into consideration when building pages. It is important that the following guidelines are followed accurately by site builders within their projects.</p>
-							<p>With this pattern library we aim to provide a resource for your site builders about how to improve your website and how to make sure your website is SEO optimised at all times.</p>
-							<p>Once a website reaches a certain size and complexity (especially if a number of sub-sites are involved) the argument for a pattern library are overwhelming.</p>
-							<p>These benefits are three fold:</p>
-							<ol>
-								<li>Consistency in user experience - Big sites are developed by different people over a prolonged period of time, and revised regularly. This almost always leads to a fragmented user experience unless there is something in place to ensure consistency.</li>
-								<li>Reusability - Large organisations often have multiple web teams working across the company reporting into different departments. Often these teams work largely in isolation and so end up reinventing the wheel at considerable cost. Having a central pattern library developed in collaboration between all of these web professionals means that functionality and design elements can be reused, so keeping costs down.</li>
-								<li>Maintainability - Having a consistent pattern library that everybody works from makes maintenance easier too. When elements are always coded in the same way, it is much easier for a developer to work on somebody else’s code. Also when a new developer comes in they can get up to speed much quicker by looking at the pattern library.</li>
-							</ol>
+			<div class="large-12 columns" role="content">				
+        <h1>Site Speed</h1>
+					<h2>Site speed best practices:</h2>
+	
+              <ul>
+                <li>Page size to be kept to as small as possible to avoid load speed issues.</li>
+                <li><a href="https://developers.google.com/speed/docs/insights/AvoidRedirects">Avoid landing page redirects</a> - Each time a page redirects to another page, your visitor faces additional time waiting for the HTTP request-response cycle to complete.</li>
+                <li><a href="https://developers.google.com/speed/docs/insights/EnableCompression">Enable compression</a> - Use Gzip, a software application for file compression, to reduce the size of your CSS, HTML, and JavaScript files that are larger than 150 bytes. Do not use gzip on image files. Instead, compress these in a program like Photoshop.</li>
+                <li><a href="https://developers.google.com/speed/docs/insights/Server">Improve server response time</a> - Your server response time is affected by the amount of traffic you receive, the resources each page uses, the software your server uses, and the hosting solution you use.</li>
+                <li><a href="https://developers.google.com/speed/docs/insights/LeverageBrowserCaching">Leverage browser caching</a> - Browsers cache a lot of information (stylesheets, images, JavaScript files, and more) so that when a visitor comes back to your site, the browser doesn't have to reload the entire page. In many cases, unless your site design changes frequently, a year is a reasonable time period.</li>
+                <li>Minify CSS, JavaScript, and HTML - By optimizing your code (including removing spaces, commas, and other unnecessary characters), you can dramatically increase your page speed. Also remove code comments, formatting, and unused code. Google recommends using <a href="http://yui.github.io/yuicompressor/">YUI Compressor</a> for both CSS and JavaScript.</li>
+                <li><a href="https://developers.google.com/speed/docs/insights/OptimizeImages">Optimize images</a> - Be sure that your images are no larger than they need to be, that they are in the right file format.</li>
+                <li>Use a content distribution network - Essentially, copies of your site are stored at multiple, geographically diverse data centers so that users have faster and more reliable access to your site.</li>
+              </ul>
+		
 				
 			</div>
 </div>
